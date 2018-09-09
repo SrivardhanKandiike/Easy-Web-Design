@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+body{
+
+	
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-family:'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0px;
+	margin: 0px;
+
+
+background-color: #f4f4f4;
+}
+
+.container{
+
+/*global*/
+
+	width: 80%;
+overflow: hidden;
+	margin: auto;
+	
+}
+
+
+ul{
+
+	list-style: none;
+	
+	
+
+	margin: 0px;
+	padding: 0px;
+
+
+}
+
+.button_1{
+
+	height: 38px;
+	background: #e8491d;
+	border: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+
+}
+
+.dark{
+
+
+	padding: 15px;
+	background: #35424a
+	color:#ffffff;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+header{
+
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px  solid;
+
+}
+
+header a{
+
+
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+
+header li{
+
+	float: left;
+
+display: inline;
+	padding: 0 20px 0 20px;
+
+}
+
+header #banding{
+
+
+	float: left;
+}
+
+
+header #banding h1{
+
+	margin: 0px;
+}
+
+header nav{
+
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover{
+
+	color: #cccccc;
+	font-weight: bold;
+}
+/*showcase*/
+
+#showclass{
+
+	min-height:400px;
+	background: url('file:///C:/Users/LENOVO/Desktop/websites/website2/img1/showcase.jpg') no-repeat 0 -400px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#showclass h1{
+
+
+	margin-top: 100px;
+	font-size:55px;
+	margin-bottom: 10px;
+}
+
+#showclass p{
+
+	font-size: 20px;
+}
+
+
+
+#newslettr{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+
+
+}
+#newslettr h1{
+	float: left;
+
+
+}
+
+#newslettr form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newslettr input[type="email"]{
+
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+
+}
+
+
+/* boxes */
+
+#boxes{
+
+	margin-top: 20px;
+}
+
+ #boxes .box{
+	float: left;
+
+	width: 30%;
+	padding:10px;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+	display: inline;
+	float: right;
+	margin: 0px;
+	}
+
+	#boxes .box img{
+
+		width: 90px;
+
+		
+
+	}
+
+
+
+	/*sidebar*/
+
+	aside #sidebar
+	{
+
+		
+		width: 30%;
+		margin-top: 10px;
+		float: right;
+
+
+	
+  
+	}
+
+
+	aside #sidebar .qoute input, aside#sidebar .qoute textarea{
+		width: 90%
+		padding: 5px;
+	}
+article #main-col{
+
+
+	float: left;
+	width: 65%;
+	}
+footer{
+
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	 background-color: #e8491d;
+	 text-align: center;
+}
+
+/*social icons*/
+
+
+
+
+
+
+/*service*/
+ul #services li{
+	padding: 20px;
+	border: #cccccc solid 1px;
+	list-style: none;
+margin-bottom: 5px;
+background: #e6e6e6;
+
+
+}
+
+
+
+ul #social
+{
+
+
+widows: 30px;
+display: inline;
+	float: left;
+}
+
+
+
+
+/*media queriies*/
+
+@media(max-width: 768px){
+
+	header #banding, header nav,
+	header nav li{
+
+		float: none;
+		text-align: center;
+		
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: 0px;
+				padding-bottom:15px;
+padding-left: 0px;
+padding-right: 15px;
+padding-top: 0px;
+
+
+		
+		width: 100%;
+		
+	}
+	nav li {
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: 5px
+		padding-bottom:20px;
+padding-left:15px;
+padding-right: 5px;
+padding-top: 0px;
+
+float: none;
+		text-align: center;
+		
+		width: 100%;
+
+
+	}
+	header {
+		padding-bottom: 20px;
+		
+		
+	}
+
+	#newslettr h1,
+	#newslettr form,
+	#boxes .box,
+	article #main-col,aside#sidebar{
+
+
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+
+
+	#showclass h1{
+
+		margin-top: 20px;
+	}
+
+	#newslettr button, .qoute button{
+display:block;
+width: 100%;
+
+	}
+
+	#newslettr form input[type="email"], .qoute input, .qoute textarea{
+		width: 100%;
+		margin-bottom: 5px;
+
+
+
+	}
+}
